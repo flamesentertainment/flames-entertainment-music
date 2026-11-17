@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+          <img src="logo.png" class="logo">
+          <h1>Flame's entertainment</h1>
+          
+<nav>
+    <a href="home.html">Home</a>
+    <a href="latestSongs.html">Latest Music</a>
+    <a href="trending.html">Trending</a>
+    <a href="contact.html">Contact</a>
+</nav>
+     </header>
+    <section id="welcome">
+      <h2 class="sectionTitle">Contact me</h2>
+      <p>I would realy like to hear from you!</p>
+      <form action="https://httpbin.org/get" method="get">
+        <div>       
+          <label for="firstName">First Name:</label>
+          <input type="text" name="firstName" id="firstName" placeholder="john" autocomplete="on" required autofocus>
+        </div>
+            <div>
+            <label for="LastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" placeholder="doe" autocomplete="on" required>
+            </div>
+         <fieldset id="textMessage">
+            <legend>Send Me A Note</legend>
+            <label for="message">Your Message</label>
+            <br>
+            <textarea name="message" id="message" placeholder="Tyoe your message here" cols="30" rows="10"></textarea>
+            <br>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+
+
+       <footer>
+   <p>&copy; 2026 Flame's Entertainment</p>
+   </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
+ 
